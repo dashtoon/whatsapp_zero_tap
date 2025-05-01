@@ -1,6 +1,6 @@
 name: whatsapp_zero_tap
 description: "OTP Autofill Using Whatsapp Zero Tap For Android Devices"
-version: 1.0.1
+version: 1.0.2
 homepage: 'https://github.com/dashtoon/whatsapp_zero_tap.git'
 
 environment:
