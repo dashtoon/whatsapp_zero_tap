@@ -1,5 +1,5 @@
 # whatsapp_zero_tap
-A Flutter plugin to auto-fill OTPs using WhatsApp's [Zero Tap](https://developers.facebook.com/docs/whatsapp/business-management-api/authentication-templates/zero-tap-authentication-templates/) for Android devices
+Auto-fill OTPs using WhatsApp's [Zero Tap](https://developers.facebook.com/docs/whatsapp/business-management-api/authentication-templates/zero-tap-authentication-templates/) for Android devices
 
 ## API Reference
 * `Future<bool> isWhatsappInstalled()`: Returns whether WhatsApp is installed on the device.
