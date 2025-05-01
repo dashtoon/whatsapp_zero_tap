@@ -1,0 +1,19 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.dashtoon.whatsapp_zero_tap">
+
+  <queries>
+    <package android:name="com.whatsapp" />
+    <package android:name="com.whatsapp.w4b" />
+  </queries>
+
+  <application>
+    <receiver
+      android:name="com.dashtoon.whatsapp_zero_tap.WhatsappOtpCodeReceiver"
+      android:enabled="true"
+      android:exported="true">
+      <intent-filter>
+        <action android:name="com.whatsapp.otp.OTP_RETRIEVED" />
+      </intent-filter>
+    </receiver>
+  </application>
+</manifest>
