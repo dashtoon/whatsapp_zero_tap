@@ -1,4 +1,5 @@
-# whatsapp_zero_tap
+# Whatsap Zero Tap Flutter
+
 Auto-fill OTPs using WhatsApp's [Zero Tap](https://developers.facebook.com/docs/whatsapp/business-management-api/authentication-templates/zero-tap-authentication-templates/) for Android devices
 
 ## API Reference
