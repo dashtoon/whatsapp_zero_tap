@@ -26,7 +26,7 @@ class WhatsappZeroTapPlugin : FlutterPlugin, MethodCallHandler {
 
   override fun onMethodCall(call: MethodCall, result: Result) {
     when (call.method) {
-      "isWhatsappInstalled" -> {
+      "isWhatsAppInstalled" -> {
         result.success(whatsAppOtpHandler.isWhatsAppInstalled(context))
       }
 

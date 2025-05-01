@@ -1,8 +1,8 @@
 import 'whatsapp_zero_tap_platform_interface.dart';
 
 class WhatsappZeroTap {
-  Future<bool> isWhatsappInstalled() {
-    return WhatsappZeroTapPlatform.instance.isWhatsappInstalled();
+  Future<bool> isWhatsAppInstalled() {
+    return WhatsappZeroTapPlatform.instance.isWhatsAppInstalled();
   }
 
   Future<bool> isWhatsAppOtpHandshakeSupported() {

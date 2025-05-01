@@ -12,9 +12,9 @@ class MethodChannelWhatsappZeroTap extends WhatsappZeroTapPlatform {
   final methodChannel = const MethodChannel('whatsapp_zero_tap');
 
   @override
-  Future<bool> isWhatsappInstalled() async {
+  Future<bool> isWhatsAppInstalled() async {
     if (!Platform.isAndroid) return false;
-    return await methodChannel.invokeMethod('isWhatsappInstalled');
+    return await methodChannel.invokeMethod('isWhatsAppInstalled');
   }
 
   @override

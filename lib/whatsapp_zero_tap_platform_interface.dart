@@ -23,7 +23,7 @@ abstract class WhatsappZeroTapPlatform extends PlatformInterface {
     _instance = instance;
   }
 
-  Future<bool> isWhatsappInstalled() {
+  Future<bool> isWhatsAppInstalled() {
     throw UnimplementedError('getWhatsappVersion() has not been implemented.');
   }
 

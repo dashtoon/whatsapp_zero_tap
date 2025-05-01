@@ -4,7 +4,7 @@ Autofill OTPs using WhatsApp's [Zero Tap](https://developers.facebook.com/docs/w
 
 ## API Reference
 
-* `Future<bool> isWhatsappInstalled()`: Returns whether WhatsApp is installed on the device.
+* `Future<bool> isWhatsAppInstalled()`: Returns whether WhatsApp is installed on the device.
 
 * `Future<bool> isWhatsAppOtpHandshakeSupported()`: Checks if the current device supports WhatsApp OTP handshakes.
 
