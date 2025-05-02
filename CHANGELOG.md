@@ -11,4 +11,9 @@
 * Bug Fixes
 
 ## 1.0.2
+
 * Update README.md
+
+## 2.0.0
+
+* Change function signature
