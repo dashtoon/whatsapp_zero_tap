@@ -17,3 +17,7 @@
 ## 2.0.0
 
 * Change function signature
+
+## 2.0.1
+
+* Add demo & update readme
