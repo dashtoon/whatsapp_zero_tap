@@ -9,7 +9,7 @@ class WhatsappZeroTap {
     return WhatsappZeroTapPlatform.instance.isWhatsAppOtpHandshakeSupported();
   }
 
-  Future<String?> getOTP({required Duration timeout}) {
-    return WhatsappZeroTapPlatform.instance.getOTP(timeout: timeout);
+  Future<String?> listenForOTP({required Duration timeout}) {
+    return WhatsappZeroTapPlatform.instance.listenForOTP(timeout: timeout);
   }
 }

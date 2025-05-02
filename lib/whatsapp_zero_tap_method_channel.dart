@@ -18,9 +18,9 @@ class MethodChannelWhatsappZeroTap extends WhatsappZeroTapPlatform {
   }
 
   @override
-  Future<String?> getOTP({required Duration timeout}) async {
+  Future<String?> listenForOTP({required Duration timeout}) async {
     if (!Platform.isAndroid) return null;
-    return await methodChannel.invokeMethod('getOTP', {
+    return await methodChannel.invokeMethod('listenForOTP', {
       'timeoutMillis': timeout.inMilliseconds,
     });
   }

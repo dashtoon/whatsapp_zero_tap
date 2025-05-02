@@ -22,17 +22,17 @@ class _MyAppState extends State<MyApp> {
   @override
   void initState() {
     super.initState();
-    initPlatformState();
+    init();
   }
 
   // Platform messages are asynchronous, so we initialize in an async method.
-  Future<void> initPlatformState() async {
+  Future<void> init() async {
     String otp = "";
     // Platform messages may fail, so we use a try/catch PlatformException.
     // We also handle the message potentially returning null.
     try {
       otp =
-          await _whatsappZeroTapPlugin.getOTP(timeout: Duration(seconds: 30)) ??
+          await _whatsappZeroTapPlugin.listenForOTP(timeout: Duration(seconds: 30)) ??
           '';
     } on PlatformException {}
 

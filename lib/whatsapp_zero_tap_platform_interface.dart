@@ -27,8 +27,8 @@ abstract class WhatsappZeroTapPlatform extends PlatformInterface {
     throw UnimplementedError('getWhatsappVersion() has not been implemented.');
   }
 
-  Future<String?> getOTP({required Duration timeout}) {
-    throw UnimplementedError('getOTP() has not been implemented.');
+  Future<String?> listenForOTP({required Duration timeout}) {
+    throw UnimplementedError('listenForOTP() has not been implemented.');
   }
 
   Future<bool> isWhatsAppOtpHandshakeSupported() {

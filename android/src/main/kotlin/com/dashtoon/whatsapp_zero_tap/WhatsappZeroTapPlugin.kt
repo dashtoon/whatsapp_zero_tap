@@ -38,8 +38,8 @@ class WhatsappZeroTapPlugin : FlutterPlugin, MethodCallHandler {
         )
       }
 
-      "getOTP" -> {
-        getOTP(call, result)
+      "listenForOTP" -> {
+        listenForOTP(call, result)
       }
 
       else -> {
@@ -49,7 +49,7 @@ class WhatsappZeroTapPlugin : FlutterPlugin, MethodCallHandler {
   }
 
 
-  private fun getOTP(call: MethodCall, result: Result) {
+  private fun listenForOTP(call: MethodCall, result: Result) {
     val timeoutMillis = call.argument<Int>("timeoutMillis") ?: 20000
     WhatsappOtpCodeReceiver.register(result, timeoutMillis)
     Log.d(
