@@ -22,5 +22,7 @@ for Android devices
 
 ## Demo:
 
-<video src="https://raw.githubusercontent.com/dashtoon/whatsapp_zero_tap/refs/heads/main/example/assets/example.mp4" controls width="100%" style="max-width: 600px;">
-Your browser does not support the video tag.</video>
+
+
+https://github.com/user-attachments/assets/ccd1e8ef-6d6d-4c35-9716-042b3a77b76b
+
